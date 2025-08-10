@@ -46,6 +46,7 @@ const MainOfferings = () => {
             </div>
           ))}
         </div>
+        <div className="w-full h-px bg-[#A2A2A2] mb-8"></div>
       </div>
 
       {/* Mobile Version - Compact services listing */}
