@@ -80,7 +80,7 @@ const MainOfferings = () => {
               <p className="text-[#121212] font-montserrat text-sm">
                 {service.desc}
               </p>
-              <button className="bg-white text-black rounded-md text-sm font-semibold px-4 py-2 w-max">
+              <button className="bg-white text-black rounded-md text-sm font-semibold px-12 py-2 w-max">
                 Book Now
               </button>
               {idx < 3 && <div className="h-px bg-white"></div>}
@@ -93,3 +93,4 @@ const MainOfferings = () => {
 };
 
 export default MainOfferings;
+
